@@ -1,0 +1,3 @@
+== BobikApp
+
+Simple rails application for creating new applications.

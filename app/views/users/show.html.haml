@@ -1,0 +1,19 @@
+%p#notice= notice
+
+- if can? :read_email, @user
+  %p
+    %b Email:
+    = @user.email
+%p
+  %b Name:
+  = @user.name
+%p
+  %b= t('user.sign_in_count')
+  = @user.sign_in_count
+%p
+  %b= t('user.last_sign_in_at')
+  = @user.last_sign_in_at
+
+= link_to 'Edit', edit_user_path(@user)
+|
+\#{link_to 'Back', users_path}

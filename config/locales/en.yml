@@ -1,0 +1,51 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  back: "Back"
+  new: "New"
+  edit: "Edit"
+  delete: "Delete"
+  details: "Details"
+  are_you_sure: "Are you sure?"
+
+  private: "Private"
+  public: "Public"
+
+  small: "Small"
+  medium: "Medium"
+  big: "Big"
+  huge: "Huge"
+
+  from: "from"
+  to: "to"
+  day: "Day"
+
+  created_at: "Created at"
+  updated_at: "Updated at"
+
+  :yes: "Yes"
+  :no: "No"
+
+  open_url_in_new_window: "Open URL in new window"
+
+  user_session:
+    destroy: "Sign out"
+    new: "Sign in"
+
+  user:
+    title: "User"
+    plural: "Users"
+    register: "Sign up"
+
+  simple_form:
+    labels:
+      model_name:
+        attribute: 'Attribute name'
+    hints:
+      model_name:
+        attribute: 'Attribute hint'
+
+  time:
+    formats:
+      short_time: "%H:%M"
